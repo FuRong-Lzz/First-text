@@ -33,9 +33,6 @@
     components:{
       'tab-bar':TabBar,
       'tab-bar-item':TabBarItem
-    },
-    methods:{
-
     }
   }
 </script>

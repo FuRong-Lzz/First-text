@@ -6,11 +6,6 @@
 <script>
 export default {
   name: 'TabBar',
-  data(){
-  	return{
-
-  	}
-  },
 }
 </script>
 <style scoped>
@@ -23,5 +18,4 @@ export default {
     right: 0;
     z-index: 9;
   }
-
 </style>

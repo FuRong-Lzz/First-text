@@ -12,9 +12,6 @@
     name: 'App',
     components:{
       'main-tab-bar':MainTabBar
-    },
-    methods:{
-
     }
   }
 </script>
