@@ -14,6 +14,10 @@
 
 <style scoped>
   .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
     display: flex;
     height: 44px;
     line-height: 44px;
@@ -25,5 +29,6 @@
   .center {
     flex: 1;
     text-align: center;
+    font-size: 18px;
   }
 </style>

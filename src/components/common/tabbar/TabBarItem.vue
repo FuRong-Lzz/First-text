@@ -2,7 +2,7 @@
    <div class="tab-bar-item" @click="itemClick">
     <div v-if='!isActive'><slot name="itemIcon"></slot></div>
     <div v-else><slot name="itemIconActive" ></slot></div>
-    <div :style='activeStyle'> <slot name="itemText" ></slot> </div>
+    <div :style='activeStyle' class="font-size"> <slot name="itemText"></slot> </div>
    </div>
 </template>
 
@@ -45,9 +45,11 @@
     height: 49px;
   }
   #tab-bar .tab-bar-item img{
-    width: 24px;
-    height: 24px;
-    margin-top: 3px;
+    width: 22px;
+    height: 22px;
     vertical-align: middle;
+  }
+  .font-size {
+    font-size: var(--font-size);
   }
 </style>

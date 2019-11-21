@@ -6,6 +6,7 @@
   --color-tint: #ff8198;
   --font-size: 14px;
   --line-height: 1.5;
+  --background-color: #fff;
 }
 *
 *::before,
@@ -19,7 +20,7 @@ body {
   user-select: none; /* 禁止用户鼠标在页面上选中文字图片等 */
   -webkit-tap-highlight-color: transparent; /* webkit是苹果浏览器引擎，tap点击，highlight
    背景高亮，color颜色，颜色用数值调节*/
-  background: var(--color-text); /*调用root中定义的颜色*/
+  background: var(--background-color); /*调用root中定义的颜色*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
